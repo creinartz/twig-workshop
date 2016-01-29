@@ -1,0 +1,13 @@
+{
+  "name": "twig-workshop",
+  "description": "skeleton for twig-workshop",
+  "version": "v0.1",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-watch": "^4.3.5"
+  },
+  "dependencies": {
+    "gulp-twig": "^0.5.0"
+  }
+}
