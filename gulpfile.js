@@ -17,24 +17,20 @@ gulp.task('compile', function () {
                 ],
                 items: [
                   {
-                    "name": "myhotel",
-                    "callToAction" : {
-                  		"headline01": "Lorem Ipsum",
-                  		"name": "Lorem Ipsum",
-                  		"cssclass": "icon-icn_info_circle_fill_light",
-                  		"ctaBoxBg": "trv-maincolor-04"
+                    "name": "my thing",
+                    "whatever" : {
+                  		"title": "Lorem Ipsum",
+                  		"subtitle": "Lorem Ipsum"
                 	  }
                 	},
                   {
-                    "name": "myhotel"
+                    "name": "my second thing"
                   }
                 ]
             }
         }))
         .pipe(gulp.dest('./dest/'));
 });
-
-gulp.task('build', function () { console.log('Working!'); });
 
 gulp.task('watch', function () {
     watch('src/**/*.twig', batch(function (events, done) {
